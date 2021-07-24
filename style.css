@@ -32,12 +32,22 @@ list-style-type: none;
     padding: 0px;
     overflow: hidden;
     background-color: yellow;
-    text-decoration: none;
 }
+
+
 li{
     float: left;
     padding: 14px 16px;
 }
+
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    background-color: pink;
+
+}
+
 
 body{
 background-color: navy;
@@ -54,9 +64,7 @@ color: yellow;
 font-style: italic;
 }
 
-pre{
-color: rgb(255, 255, 255);
-}
+
 
 .footer{
     height: 80px;
@@ -66,7 +74,7 @@ color: rgb(255, 255, 255);
     
    
 }
-pre{
-    color: yellow;
-    font-size: 20px;
+.l{
+    color: rgb(245, 49, 14);
+    font-size: 15px;
 }
